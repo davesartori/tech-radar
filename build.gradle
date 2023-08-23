@@ -1,0 +1,34 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.1'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'war'
+	//id "application"
+	id "com.gorylenko.gradle-git-properties" version "2.4.1"
+}
+
+apply plugin : "java"
+
+group = 'com.coles'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.17'
+
+repositories {
+	mavenCentral()
+}
+
+bootRun {
+	systemProperties = System.properties
+}
+
+springBoot {
+	mainClass = 'com.coles.Convert'
+}
+
+ext {
+	javaMainClass = "com.coles.Convert"
+}
+
+dependencies {
+	implementation 'com.opencsv:opencsv:5.5'
+}

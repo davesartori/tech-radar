@@ -4,3 +4,8 @@ node_modules/
 
 # yarn
 yarn-error.log
+
+.gradle
+build
+gradle
+gradlew*
