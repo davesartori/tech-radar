@@ -3,7 +3,7 @@
 
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<meta name="description" content="Zalando Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Zalando to pick the best technologies for new projects">
+<meta name="description" content="Coles Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Coles to pick the best technologies for new projects">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Zalando Tech Radar</title>
 <link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
@@ -28,8 +28,8 @@ radar_visualization({
     grid: '#dddde0',
     inactive: "#ddd"
   },
-  title: "Coles - Fintech Tech Radar",
-  date: "2023.02",
+  title: "Fintech Tech Radar",
+  date: "August 2023",
   quadrants: [
     { name: "Techniques" },
     { name: "Platforms" },
@@ -49,32 +49,34 @@ radar_visualization({
   entries: [
       {"label":"Continuous integration", "ring":1, "quadrant":0, "active":"true", "description":"Continuous integration is an automation process. Successful CI means new changes to an app are regularly built, tested, and merged to a shared repository.", "moved":"false"},
 {"label":"Continuous deployment", "ring":1, "quadrant":0, "active":"true", "description":"Continuous deployment refers to automatically releasing a changes from the repository to dev/test/prod environments.", "moved":"false"},
-{"label":"IST", "ring":0, "quadrant":0, "active":"true", "description":"", "moved":"false"},
+{"label":"IST", "ring":0, "quadrant":1, "active":"true", "description":"", "moved":"false"},
 {"label":"RPM", "ring":0, "quadrant":2, "active":"true", "description":"A package management tool for Linux distributions.", "moved":"false"},
-{"label":"Bitbucket", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"Chocolatey", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"ScriptRunner", "ring":0, "quadrant":2, "active":"true", "description":"In-house developed tool that forms part of the deployment framework (Bitbucket, Artifactory, Chocolatey) allowing the semi-automated packaging and deployment of code and applications.", "moved":"false"},
-{"label":"Linux", "ring":0, "quadrant":1, "active":"true", "description":"", "moved":"false"},
+{"label":"Bitbucket", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"Chocolatey", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"ScriptRunner", "ring":0, "quadrant":2, "active":"false", "description":"In-house developed tool that forms part of the deployment framework (Bitbucket, Artifactory, Chocolatey) allowing the semi-automated packaging and deployment of code and applications.", "moved":"false"},
+{"label":"Linux", "ring":0, "quadrant":1, "active":"false", "description":"", "moved":"false"},
 {"label":"Docker", "ring":2, "quadrant":1, "active":"true", "description":"Docker is a technology that allows you to create, run, and manage containers", "moved":"false"},
-{"label":"Java", "ring":0, "quadrant":3, "active":"true", "description":"", "moved":"false"},
-{"label":"Powershell", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"Utility Platform", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"GAWK/AWK", "ring":0, "quadrant":3, "active":"true", "description":"Scripting tool for small projects run in Linux and Windows, currently used by VEP and Digital Utilities", "moved":"false"},
-{"label":"Eclipse", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"Postman", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"JavaScript", "ring":0, "quadrant":3, "active":"true", "description":"Currently used for Digital transaction feed to Paydock, X-Ray, and MPGS", "moved":"false"},
-{"label":"Oracle SQL Developer", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"MS SQL Sever Management Studio", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"Visual Studio Code", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"Beyond Compare", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"Xray", "ring":0, "quadrant":2, "active":"true", "description":"Quality Assurance Tool - Test Management tool tied-up with Jira", "moved":"false"},
-{"label":"Python", "ring":0, "quadrant":2, "active":"true", "description":"Used in our Automation space", "moved":"false"},
-{"label":"Notepad++", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"SQL Dev tools", "ring":0, "quadrant":2, "active":"true", "description":"Used for SQL script creation and updates", "moved":"false"},
-{"label":"Visio", "ring":0, "quadrant":2, "active":"true", "description":"", "moved":"false"},
-{"label":"https://hexed.it/", "ring":0, "quadrant":2, "active":"true", "description":"Data translator", "moved":"false"},
-{"label":"Greenshot", "ring":0, "quadrant":2, "active":"true", "description":"Greenshot is a free and open-source screenshot program for Microsoft Windows, Already available in Coles catalogue", "moved":"false"},
-{"label":"C#", "ring":0, "quadrant":2, "active":"true", "description":"Used for generation of adhoc applications", "moved":"false"},
+{"label":"Java", "ring":0, "quadrant":3, "active":"false", "description":"", "moved":"false"},
+{"label":"Powershell", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"Utility Platform", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"GAWK/AWK", "ring":0, "quadrant":3, "active":"false", "description":"Scripting tool for small projects run in Linux and Windows, currently used by VEP and Digital Utilities", "moved":"false"},
+{"label":"Eclipse", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"Postman", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"JavaScript", "ring":0, "quadrant":3, "active":"false", "description":"Currently used for Digital transaction feed to Paydock, X-Ray, and MPGS", "moved":"false"},
+{"label":"Oracle SQL Developer", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"MS SQL Sever Management Studio", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"Visual Studio Code", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"Beyond Compare", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"Xray", "ring":0, "quadrant":2, "active":"false", "description":"Quality Assurance Tool - Test Management tool tied-up with Jira", "moved":"false"},
+{"label":"Python", "ring":0, "quadrant":2, "active":"false", "description":"Used in our Automation space", "moved":"false"},
+{"label":"Notepad++", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"SQL Dev tools", "ring":0, "quadrant":2, "active":"false", "description":"Used for SQL script creation and updates", "moved":"false"},
+{"label":"Visio", "ring":0, "quadrant":2, "active":"false", "description":"", "moved":"false"},
+{"label":"https://hexed.it/", "ring":0, "quadrant":2, "active":"false", "description":"Data translator", "moved":"false"},
+{"label":"Greenshot", "ring":0, "quadrant":2, "active":"false", "description":"Greenshot is a free and open-source screenshot program for Microsoft Windows, Already available in Coles catalogue", "moved":"false"},
+{"label":"C#", "ring":0, "quadrant":2, "active":"false", "description":"Used for generation of adhoc applications", "moved":"false"},
+{"label":"Office", "ring":3, "quadrant":1, "active":"false", "description":"", "moved":"false"},
+{"label":"Data Navigator", "ring":0, "quadrant":1, "active":"true", "description":"", "moved":"false"},
 
     ]
   //ENTRIES
