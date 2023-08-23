@@ -1,29 +1,31 @@
 name,ring,quadrant,isNew,description
 Continuous integration,Trial,Techniques,TRUE,"Continuous integration is an automation process. Successful CI means new changes to an app are regularly built, tested, and merged to a shared repository."
 Continuous deployment,Trial,Techniques,TRUE,Continuous deployment refers to automatically releasing a changes from the repository to dev/test/prod environments.
-IST,Adopt,Techniques,TRUE,
+IST,Adopt,Platforms,TRUE,
 RPM,Adopt,Tools,TRUE,A package management tool for Linux distributions.
-Bitbucket,Adopt,Tools,TRUE,
-Chocolatey,Adopt,Tools,TRUE,
-ScriptRunner,Adopt,Tools,TRUE,"In-house developed tool that forms part of the deployment framework (Bitbucket, Artifactory, Chocolatey) allowing the semi-automated packaging and deployment of code and applications."
-Linux,Adopt,Platforms,TRUE,
+Bitbucket,Adopt,Tools,FALSE,
+Chocolatey ,Adopt,Tools,FALSE,
+ScriptRunner,Adopt,Tools,FALSE,"In-house developed tool that forms part of the deployment framework (Bitbucket, Artifactory, Chocolatey) allowing the semi-automated packaging and deployment of code and applications."
+Linux,Adopt,Platforms,FALSE,
 Docker,Assess,Platforms,TRUE,"Docker is a technology that allows you to create, run, and manage containers"
-Java,Adopt,Languages and frameworks,TRUE,
-Powershell,Adopt,Tools,TRUE,
-Utility Platform,Adopt,Tools,TRUE,
-GAWK/AWK,Adopt,Languages and frameworks,TRUE,"Scripting tool for small projects run in Linux and Windows, currently used by VEP and Digital Utilities"
-Eclipse,Adopt,Tools,TRUE,
-Postman,Adopt,Tools,TRUE,
-JavaScript,Adopt,Languages and frameworks,TRUE,"Currently used for Digital transaction feed to Paydock, X-Ray, and MPGS"
-Oracle SQL Developer,Adopt,Tools,TRUE,
-MS SQL Sever Management Studio,Adopt,Tools,TRUE,
-Visual Studio Code,Adopt,Tools,TRUE,
-Beyond Compare,Adopt,Tools,TRUE,
-Xray,Adopt,Tools,TRUE,Quality Assurance Tool - Test Management tool tied-up with Jira
-Python,Adopt,Tools,TRUE,Used in our Automation space
-Notepad++,Adopt,Tools,TRUE,
-SQL Dev tools,Adopt,Tools,TRUE,Used for SQL script creation and updates
-Visio,Adopt,Tools,TRUE,
-https://hexed.it/,Adopt,Tools,TRUE,Data translator
-Greenshot,Adopt,Tools,TRUE,"Greenshot is a free and open-source screenshot program for Microsoft Windows, Already available in Coles catalogue"
-C#,Adopt,Tools,TRUE,Used for generation of adhoc applications
+Java,Adopt,Languages and frameworks,FALSE,
+Powershell,Adopt,Tools,FALSE,
+Utility Platform,Adopt,Tools,FALSE,
+GAWK/AWK,Adopt,Languages and frameworks,FALSE,"Scripting tool for small projects run in Linux and Windows, currently used by VEP and Digital Utilities"
+Eclipse,Adopt,Tools,FALSE,
+Postman,Adopt,Tools,FALSE,
+JavaScript,Adopt,Languages and frameworks,FALSE,"Currently used for Digital transaction feed to Paydock, X-Ray, and MPGS"
+Oracle SQL Developer,Adopt,Tools,FALSE,
+MS SQL Sever Management Studio,Adopt,Tools,FALSE,
+Visual Studio Code,Adopt,Tools,FALSE,
+Beyond Compare,Adopt,Tools,FALSE,
+Xray,Adopt,Tools,FALSE,Quality Assurance Tool - Test Management tool tied-up with Jira
+Python,Adopt,Languages and frameworks,FALSE,Used in our Automation space
+Notepad++,Adopt,Tools,FALSE,
+SQL Dev tools ,Adopt,Tools,FALSE,Used for SQL script creation and updates
+Visio,Adopt,Tools,FALSE,
+https://hexed.it/,Adopt,Tools,FALSE,Data translator
+Greenshot,Adopt,Tools,FALSE,"Greenshot is a free and open-source screenshot program for Microsoft Windows,  Already available in Coles catalogue"
+C#,Adopt,Languages and frameworks,FALSE,Used for generation of adhoc applications 
+Office,Hold,Platforms,FALSE,
+Data Navigator,Adopt,Platforms,TRUE,
