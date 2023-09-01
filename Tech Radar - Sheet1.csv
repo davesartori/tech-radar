@@ -29,3 +29,44 @@ Greenshot,Adopt,Tools,FALSE,"Greenshot is a free and open-source screenshot prog
 C#,Adopt,Languages and frameworks,FALSE,Used for generation of adhoc applications 
 Office,Hold,Platforms,FALSE,
 Data Navigator,Adopt,Platforms,TRUE,
+SQL,Adopt,Languages and frameworks,FALSE,
+Controlm,Adopt,Tools,FALSE,Used for scheduling the jobs.Have vast Maintenance knowledge but not Admin or installer knowledge
+Prognosis,Adopt,Tools,FALSE,
+Postilion - Realtime /Console/Tracelog,Adopt,Tools,FALSE,
+Postilion - Office,Hold,Tools,FALSE,
+Master card Simulator(MCPS),Trial,Tools,FALSE,Installation & configuration is done by Captain Change team and used by Testing team
+Master card Simulator (MAS),Adopt,Tools,FALSE,Installation & configuration is done by Captain Change team and used by Testing team
+Terminal Management System (TMS),Adopt,Tools,FALSE,
+Quest,Adopt,Tools,FALSE,
+VisaEdit,Adopt,Tools,FALSE,
+Finsim,Adopt,Tools,FALSE,Installation & configuration is done by Captain Change team and used by Testing team
+Pinpad,Adopt,Tools,FALSE,
+MPGS ,Trial,Platforms,FALSE,End users only and will be using only the portal
+Paydock,Trial,Platforms,FALSE,End users only and will be using only the portal
+Visa Token Id,Trial,Platforms,FALSE,End users only and will be using only the portal
+VB Scripts,Adopt,Languages and frameworks,FALSE,
+Shell Scripts,Trial,Languages and frameworks,FALSE,No development activities and supporting UP related jobs and scripts
+CPAT Tool,Adopt,Tools,FALSE,
+Service now,Adopt,Tools,FALSE,
+Master card connect,Adopt,Platforms,FALSE,
+"C, C++, Java",Assess,Platforms,FALSE,
+Cadencie,Trial,Platforms,FALSE,End users only and will be using only the portal
+Artifactory,Adopt,Platforms,FALSE,
+Storeadd Utility,Adopt,Tools,FALSE,
+Pinpad Track&Trace,Trial,Tools,FALSE,
+MS Access,Adopt,Platforms,FALSE,
+JIRA,Adopt,Tools,FALSE,
+Confluence,Adopt,Tools,FALSE,
+Sharepoint,Adopt,Tools,FALSE,
+Azure Blob Storage/Data factory/Monitoring,Trial,Tools,FALSE,Monitoring the file transfers
+Venafi,Adopt,Platforms,FALSE,
+MQ/MFT/Connect Direct,Adopt,Tools,FALSE,
+GOCD,Trial,Tools,FALSE,
+Utility Platform,Adopt,Platforms,FALSE,
+Visa Test Systems,Trial,Platforms,FALSE,Only install/upgrades - Testing team occasionally use it
+UPI,Trial,Platforms,FALSE,Only install/upgrades - Testing team occasionally use it
+Git,Adopt,Tools,FALSE,
+Citrix,Adopt,Platforms,FALSE,
+IDM ,Adopt,Tools,FALSE,
+PAM,Adopt,Tools,FALSE,
+One note,Adopt,Tools,FALSE,
